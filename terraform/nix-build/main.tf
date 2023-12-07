@@ -1,6 +1,7 @@
 terraform {
   required_providers {
     null       = { source = "registry.terraform.io/hashicorp/null" }
+    external   = { source = "registry.terraform.io/hashicorp/external" }
   }
 }
 
