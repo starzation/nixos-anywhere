@@ -1,5 +1,5 @@
 terraform {
   required_providers {
-    null       = { source = "hashicorp/null" }
+    null       = { source = "registry.terraform.io/hashicorp/null" }
   }
 }
