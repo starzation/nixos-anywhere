@@ -1,3 +1,9 @@
+terraform {
+  required_providers {
+    null       = { source = "registry.terraform.io/hashicorp/null" }
+  }
+}
+
 resource "null_resource" "nixos-rebuild" {
   triggers = {
     store_path = var.nixos_system
